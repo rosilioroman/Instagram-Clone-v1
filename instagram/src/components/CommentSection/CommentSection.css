@@ -1,0 +1,39 @@
+.comment-section-container {
+    width: 100%;
+    background-color: white;
+    border-radius: inherit;
+    padding: 0 15px;
+}
+
+.standalone-comment {
+    width: 100%;
+    display: flex;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.comment-text {
+    margin: 0 5px;
+}
+
+.comment-input-container {
+    width: 100%;
+    display: flex;
+    border-top: 1px solid lightgrey;
+    margin: 10px 0;
+}
+
+.add-comment-field {
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+}
+
+.add-comment-field::placeholder {
+    color: grey;
+}
+
+.add-comment-field:focus {
+    text-decoration: none;
+    outline: none;
+}

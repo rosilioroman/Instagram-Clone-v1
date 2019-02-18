@@ -1,0 +1,92 @@
+.post-container {
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.standalone-post {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin: 25px 0;
+    background-color: white;
+}
+
+.standalone-post:first-child {
+    margin-top: 50px;
+}
+
+/* styles for post-header and its components */
+.post-header {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: inherit;
+}
+
+.thumbnail-container {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.user-thumbnail {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.username-display {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.username-display:hover {
+    cursor: pointer;
+}
+/* end post-header styles */
+
+/* formatting for images in individual posts */
+.post-image {
+    width: 100%;
+    height: auto;
+}
+
+/* styling for the 'likes' functionality */
+.likes-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 15px;
+}
+
+.post-icons-container {
+    display: flex;
+    justify-content: space-around;
+    width: 60px;
+    margin-bottom: 5px;
+}
+
+.post-icons {
+    width: 25px;
+    height: 25px;
+}
+
+.post-icons:hover {
+    cursor: pointer;
+}
+
+.icon {
+    width: 100%;
+    height: auto;
+}
+
+.num-of-likes {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
